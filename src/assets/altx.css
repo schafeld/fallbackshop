@@ -1,0 +1,220 @@
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.xs12 {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.xs10 {
+    max-width: calc(100% - (100% / 6));
+    flex-basis: calc(100% - (100% / 6));
+}
+
+.xs9 {
+    max-width: 75%;
+    flex-basis: 75%;
+}
+
+.xs6 {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.xs4 {
+    max-width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
+}
+
+.xs3 {
+    max-width: 25%;
+    flex-basis: 25%;
+}
+
+.xs2 {
+    max-width: calc(100% / 6);
+    flex-basis: calc(100% / 6);
+}
+
+.xs1 {
+    max-width: calc(100% / 12);
+    flex-basis: calc(100% / 12);
+}
+
+@media screen and (max-width: 479px) {
+    .xs12, .xs10, .xs9, .xs6, .xs4, .xs3, .xs2, .xs1 {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .xs12.hidden, .xs10.hidden, .xs9.hidden, .xs6.hidden, .xs4.hidden, .xs3.hidden, .xs2.hidden, .xs1.hidden {
+        max-width: 0%;
+        flex-basis: 0%;
+    }
+    .left, .right, .center {
+        text-align: center !important;
+        /* important because to overwrite scoped css */
+    }
+}
+
+.row-form{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    margin: 0 0 0 -10px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch
+  }
+  
+  .row-form>.label {
+    display: none
+  }
+  
+  .row-form.req_show {
+    display: none
+  }
+  
+  .row-form-col {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    word-spacing: 0;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px
+  }
+  
+  .row-form-col>.label {
+    display: block;
+    padding: 6px 0 1px
+  }
+  
+  .row-form-col [type="text"],
+  .row-form-col [type="password"],
+  .row-form-col [type="search"],
+  .row-form-col [type="number"],
+  .row-form-col [type="tel"],
+  .row-form-col [type="email"],
+  .row-form-col [type="url"],
+  .row-form-col [type="date"],
+  .row-form-col [type="time"],
+  .row-form-col [type="month"],
+  .row-form-col [type="week"],
+  .row-form-col [type="datetime"],
+  .row-form-col [type="datetime-local"],
+  .row-form-col select,
+  .row-form-col textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%
+  }
+  
+  .row-form-col.tick-vertical {
+    padding-bottom: 0
+  }
+  
+  @media screen and (min-width:480px) {
+    .wideform .row-form{
+      padding-left: 25%
+    }
+  
+    .wideform .row-form>.label {
+      font-size: 14px;
+      font-size: 1.4rem;
+      line-height: 1.42857;
+      word-spacing: 0;
+      padding: 0 0 0 10px;
+      box-sizing: border-box;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+      font-size: 1.3rem;
+      line-height: 1.23077;
+      width: 33.33333%;
+      margin-left: -33.33333%;
+      padding: 6px 0 15px 13.33333px
+    }
+  
+    .wideform .row-form-col>.label {
+      display: none
+    }
+  }
+  
+  .no-mediaqueries .wideform .row-form{
+    padding-left: 25%
+  }
+  
+  .no-mediaqueries .wideform .row-form>.label {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    word-spacing: 0;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.23077;
+    width: 33.33333%;
+    margin-left: -33.33333%;
+    padding: 6px 0 15px 13.33333px
+  }
+  
+  .no-mediaqueries .wideform .row-form-col>.label {
+    display: none
+  }
+  
+  .wideform .row-form--compact>.label {
+    display: none
+  }
+  
+  .wideform .row-form--compact .row-form-col>.label {
+    display: block
+  }

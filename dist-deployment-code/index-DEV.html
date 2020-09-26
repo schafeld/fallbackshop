@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <!-- Custom Code for Empty Template deployment. Version: 2020-07-27_001_OS -->
+        <!-- Source for HTML: dist-deployment-code/index-DEV.html | For DEVELOPMENT/TESTING, deployed at /online-shop-development/ -->
+
+        <!-- New: CR-62277: MGM fixes -->
+        <!-- Hint: URL needs to contain "-shop", like in "/online-shop", for Tealium to work properly. -->
+        <!-- Beware: The order of script tags below is *not* random. Thoroughly test if you refactor, especially tracking/GDPR . -->
+        <meta charset=utf-8>
+        <meta http-equiv=X-UA-Compatible content="IE=edge">
+        <meta name="robots" content="noindex, nofollow">
+
+        <!-- Copied tags from prod --->
+        <meta name="description" content="Unitymedia | Ihr Kabelfernsehen-,
+            Telefon- und Internetanbieter in Hessen, NRW und BW. Jetzt das
+            passende Angebot ausw&auml;hlen &amp; Online Vorteile nutzen!">
+        <meta name="last-modified" content="2020-07-27@11:16:00 MEZ">
+
+        <link href="https://plus.google.com/111384776678506895390"
+            rel="publisher">
+        <meta name="apple-itunes-app" content="app-id=549148968">
+        <meta name="google-site-verification"
+            content="sscsIV3vj6I7paLQRfHCkf7xvgoyLAmIjtlPZKuSwdc" />
+        <link rel="canonical" href="https://www.unitymedia.de" />
+        <title>Internet, Telefon und Kabelfernsehen von Unitymedia</title>
+
+        <link rel="shortcut icon" type="image/x-icon"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/favicon.ico">
+        <link rel="apple-touch-icon"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon.png"
+            />
+        <link rel="apple-touch-icon" sizes="57x57"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-57x57.png"
+            />
+        <link rel="apple-touch-icon" sizes="72x72"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-72x72.png"
+            />
+        <link rel="apple-touch-icon" sizes="76x76"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-76x76.png"
+            />
+        <link rel="apple-touch-icon" sizes="114x114"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-114x114.png"
+            />
+        <link rel="apple-touch-icon" sizes="120x120"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-120x120.png"
+            />
+        <link rel="apple-touch-icon" sizes="144x144"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-144x144.png"
+            />
+        <link rel="apple-touch-icon" sizes="152x152"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-152x152.png"
+            />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="/etc/designs/dcomm/unitymedia-de/media/favicons/apple-touch-icon-180x180.png"
+            />
+
+        <script type="text/javascript">
+        // Redirect to homepage while there is no testing.
+        var REDIRECT_TO_DCOMM = false;
+
+        if (REDIRECT_TO_DCOMM) {
+            console.info('Forced redirect to standard homepage.')
+            window.location.replace('https://' + window.location.hostname);
+        }
+        </script>
+        <!-- Dcomm GDPR layer, Hash is from Dcomm release, observe their releases! Without hash might increase server load and load outdated version of layer! -->
+        <script
+            src="/etc/designs/mycare/unitymedia-de/js/gdpr.min.5b8061cc92ef31a75aff06bf2a45ea3b.js"></script>
+        <script>
+        // CR-51155, define hotline button number in Kiss widget here.
+        // Component contains hardcoded defaults.
+        window.CONFIG_BBCT = {};
+        // VF
+        // window.CONFIG_BBCT.hotlineNumber = "0800 8800 730";
+        // window.CONFIG_BBCT.hotlineHref = "tel:+498008800730";
+        // UM
+        window.CONFIG_BBCT.hotlineNumber = '0800 723 81 91'
+        window.CONFIG_BBCT.hotlineHref = 'tel:+498007238191'
+
+        // Vodafone banner is injected through Dcomm's GDPR script and displaces menu overlay, CR-51040.
+        window.OFFSET_VODAFONE_BANNER = true;
+
+        // CR-52127, tracking the shop instance name
+        window.CONFIG_BBCT.shopId = 'unitymedia_fallback_online-shop-development';
+    </script>
+        <script type="text/javascript">
+        var FBXDEBUG = false; // set this value to true to have additional console.log info and in app feedback flags shown
+        var FBXMOCK = false; // set this value to true to have mockdata automatically added in the checkout
+        var FBXDEV = true; // set this value to true to send the orders from the checkout through a different email config, for testing
+        var STATICRFS = false; // Circumvent RFS check in checkout. Set this to true to have the RFS Fallback active regardless of RFS Service availability.
+        var useTestSuite = true; // set this value to true for sending tracking data to testsuite instead of live
+        var FBXPROMO = {
+            dov: false,
+            otc: false,
+            mgm: false,
+            sdp: false
+        }
+        // control the availability for individual products
+        var AVAILABILITY = [
+        ]
+        if (window.FBXDEBUG === true) {
+            console.log('%cTealium is ENABLED!', 'color:green')
+        }
+
+        var ANALYTICS_ALLOWED = false;
+        if (document.cookie.indexOf("opt_out_analytics") < 0) {
+            ANALYTICS_ALLOWED = true;
+        }
+
+        // DTM script url for live/Prod or staging/UAT (DA-3597)
+        // (not using staging anymore, look it up in Dcomm if needed)
+        // Adobe Launch used as of DA-3773
+        const URL_DTM_PROD = "//assets.adobedtm.com/launch-EN6b7aa5abf30c409fb82c3806567aec5a.min.js";
+        const URL_DTM_STAGING = "//assets.adobedtm.com/launch-EN8288372545b541abb14be0e2c2fdf1fa-staging.min.js"
+
+        if (ANALYTICS_ALLOWED) {
+            if (FBXDEV) {
+                document.write('<script type="text/javascript" src="' + URL_DTM_STAGING + '"><\/script>');
+            } else {
+                document.write('<script type="text/javascript" src="' + URL_DTM_PROD + '"><\/script>');
+            }
+        }
+
+        // Avoid ' sncf is not defined' when tracking is deselected
+        var sncf = sncf || {};
+
+        // Copied from Dcomm, required for analytics.
+        window.UPC = window.UPC || {};
+        window.UPC.vars = window.UPC.vars || {};
+        window.UPC.vars.siteSection='';
+        // FB-shop/SPA-specific (DA-3661)
+        window.UPC.vars.server = "www.unitymedia.de/online-shop";
+
+        // Custom fallback shop fix for appearing 'satellite-58c1cc4c64746d396f002532.js:187 Uncaught ReferenceError: s_account is not defined' error when GDPR is opted-out.
+        if (typeof s_account === 'undefined') {
+            if(FBXDEBUG === true){
+                console.info("Parameter 's_account' set to default value.");
+            }
+            var s_account = {};
+        }
+
+        var ume = ume || {};
+
+        // TODO: Check if setting this to dummy function to avoid console error message has no side effect on tracking
+        ume.registerTracking = ume.registerTracking || function () { return false; }
+
+        // Configure Tealium for SPA
+        window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+        window.utag_cfg_ovrd.noview = true;
+    </script>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+
+        <!-- jQuery is expected by Tealium -->
+        <script src="/etc/clientlibs/granite/jquery.min.js" defer async></script>
+        <!-- Hint: Make sure 'dev'/'qa'(unused?)/'prod' match in config and url below (urls see Dcomm's marketingcontainer.js). -->
+        <!-- scr ipt type="text/javascript" src="//tealium.hs.llnwd.net/o43/utag/lgi/de-unitymedia-main/dev/utag.js"></scr ipt -->
+        <!-- script src="//tags.tiqcdn.com/utag/lgi/de-unitymedia-main/prod/utag.js"></scr ipt -->
+
+        <!-- Fallback shop script tag insertion 1/2 -->
+        <!-- PROD: =//www.unitymedia.de/content/dam/dcomm-unitymedia-de/shop/css --->
+        <link href=/content/dam/dcomm-unitymedia-de/shop/css/app.f53bc8a0.css rel=preload as=style>
+        <link href=/content/dam/dcomm-unitymedia-de/shop/js/app.4ab016cc.js rel=preload as=script>
+        <link href=/content/dam/dcomm-unitymedia-de/shop/js/chunk-vendors.9c9c5543.js rel=preload as=script>
+        <link href=/content/dam/dcomm-unitymedia-de/shop/js/chunk-2d0b6d22.5f1dc9bb.js rel=preload as=script>
+        <link href=/content/dam/dcomm-unitymedia-de/shop/css/app.f53bc8a0.css rel=stylesheet>
+
+        <!--
+    TODO: Exclude after GDPR opt-out?
+    Start of global snippet: Please do not remove
+    Place this snippet between the <head> and </head> tags on every page of your site.
+    -->
+        <!-- Global site tag (gtag.js) - Google Marketing Platform -->
+        <!-- TODO: Remove inline Gtag scripts, when validated that it should come from Tealium only! -->
+        <!-- scr ipt async src="https://www.googletagmanager.com/gtag/js?id=DC-4610628"></scr ipt>
+    <scr ipt>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'DC-4610628');
+        gtag('config', 'AW-1006889765');
+
+    </scr ipt -->
+        <!-- End of global snippet: Please do not remove -->
+    </head>
+
+    <body><noscript><p>Der Onlineshop erfordert aktiviertes Javascript, bitte
+                einschalten.</p><p>Ansonsten erreichen Sie unsere <em>Bestell
+                    Hotline telefonisch unter 0221 466 190 99</em> (Mo bis Fr 8
+                – 22 Uhr, Sa 8 – 20 Uhr. Nicht an Sonn- und Feiertagen.)</p></noscript>
+        <script type="text/javascript">
+        if(ANALYTICS_ALLOWED) {
+            document.write('<script type="text/javascript" src="/etc/designs/dcomm/unitymedia-de/js/analytics.min.js?ts=1553849897184"><\/script>');
+        }
+    </script>
+        <div id=app>
+            <p class="ume-spinner"> Unitymedia Shop wird geladen... </p>
+        </div>
+
+        <!-- Fallback shop script tag insertion 2/2 -->
+        <script src=/content/dam/dcomm-unitymedia-de/shop/js/chunk-vendors.9c9c5543.js></script>
+        <script src=/content/dam/dcomm-unitymedia-de/shop/js/chunk-2d0b6d22.5f1dc9bb.js></script>
+        <script src=/content/dam/dcomm-unitymedia-de/shop/js/app.4ab016cc.js></script>
+
+        <script type="text/javascript">
+            if (typeof _satellite !== 'undefined') { _satellite.pageBottom(); }
+        </script>
+
+        <!-- Tealium injection script. -->
+        <script type="text/javascript">
+            (function(a,b,c,d){
+            a='//tags.tiqcdn.com/utag/lgi/de-unitymedia-main/prod/utag.js';
+            b=document;c='script';d=b.createElement(c);d.src=a;
+            d.type='text/java'+c;d.async=true;
+            a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)
+            })();
+        </script>
+    </body>
+</html>

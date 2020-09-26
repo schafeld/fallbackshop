@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+        <!-- Actual page/view titles are defined in router.js -->
+        <title>Unitymedia Highspeed Shop – Internet, Telefon und Kabelfernsehen
+            von Unitymedia</title>
+        <!-- "Fallback Shop / Alternative Experience" (BBC-30), local development index page. -->
+        <script>
+        var FBXDEBUG = false;
+        // Hint: ALL inputs must be touched for checkout page 1 to validate although prefilled by mocked data.
+        var FBXMOCK = false; // TODO: Find out why mocking seems to break orders button with selected add-ons.
+        var FBXDEV = true;
+        var STATICRFS = true;
+        var useTestSuite = true;
+        // the promotion table which will be initiated inside of the main.js file
+        var FBXPROMO = {
+            dov: false,
+            otc: false,
+            mgm: false,
+            sdp: false
+        }
+        // use this object to turn indiviual objects off
+        var AVAILABILITY = [
+        ]
+        </script>
+        <script>
+        // CR-51155, define hotline button number in Kiss widget here.
+        // Component contains hardcoded defaults.
+        window.CONFIG_BBCT = {};
+        window.CONFIG_BBCT.hotlineNumber = "0800 8800 730";
+        window.CONFIG_BBCT.hotlineHref = "tel:+4908008800730";
+        // Vodafone banner is injected through Dcomm's GDPR script and displaces menu overlay, CR-51040.
+        window.OFFSET_VODAFONE_BANNER = true;
+
+        // CR-52127, tracking the shop instance name
+        window.CONFIG_BBCT.shopId = 'unitymedia_fallback_localhost';
+    </script>
+        <!-- Dcomm GDPR layer (uses *same* cookie as Dcomm), needs to be updated after Dcomm release!
+    -->
+        <script
+            src="//www.unitymedia.de/etc/designs/mycare/unitymedia-de/js/gdpr.min.5b8061cc92ef31a75aff06bf2a45ea3b.js">
+    </script>
+        <script type="text/javascript">
+        // GDPR layer cookie handling
+        // var ANALYTICS_ALLOWED = true; // if Analytics is to be 'always on'
+        // var ANALYTICS_ALLOWED =getCookieVal("opt_out_analytics_fallback") === 'allow' ||document.cookie.indexOf("opt_out_analytics_fallback") < 0; // Cookie for simple custom GDPR layer (options yes/no)
+        var ANALYTICS_ALLOWED = false;
+        if (document.cookie.indexOf("opt_out_analytics") < 0) {
+            ANALYTICS_ALLOWED = true;
+        } // Dcomm GDPR layer
+
+        var ume = ume || {};
+
+        // DTM script urls for live/Prod or staging/UAT (DA-3597)
+        const URL_DTM_PROD = "//assets.adobedtm.com/launch-EN6b7aa5abf30c409fb82c3806567aec5a.min.js";
+        const URL_DTM_STAGING = "//assets.adobedtm.com/launch-EN8288372545b541abb14be0e2c2fdf1fa-staging.min.js"
+
+        if (ANALYTICS_ALLOWED) {
+            if (FBXDEV) {
+                document.write('<script type="text/javascript" src="' + URL_DTM_STAGING + '"><\/script>');
+            } else {
+                document.write('<script type="text/javascript" src="' + URL_DTM_PROD + '"><\/script>');
+            }
+        }
+
+        // Avoid ' sncf is not defined' when tracking is deselected
+        var sncf = sncf || {};
+    </script>
+        <script>
+        var ume = ume || {};
+
+        // Setting this to dummy function to avoid console error message
+        ume.registerTracking = ume.registerTracking || function () {
+            return false;
+        }
+
+        // Copied from Dcomm, required for analytics.
+        window.UPC = window.UPC || {};
+        window.UPC.vars = window.UPC.vars || {};
+        window.UPC.vars.siteSection = '';
+        // FB-Shop/SPA-specific (DA-3661)
+        window.UPC.vars.server = "www.unitymedia.de/online-shop";
+    </script>
+        <script>
+        // Custom fallback shop fix for appearing 'satellite-58c1cc4c64746d396f002532.js:187 Uncaught ReferenceError: s_account is not defined' error when GDPR is opted-out.
+        if (typeof s_account === 'undefined') {
+            console.info("Parameter 's_account' set to default value.");
+            var s_account = {};
+        }
+    </script>
+        <!-- jQuery is expected by Tealium -->
+        <script src="//www.unitymedia.de/etc/clientlibs/granite/jquery.min.js"></script>
+        <script>
+        // Configure Tealium for SPA
+        // https://community.tealiumiq.com/t5/Tealium-iQ-Tag-Management/Implementing-GA-properly-for-Single-Page-App-w-Tealium/td-p/26204
+        window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+        window.utag_cfg_ovrd.noview = true;
+    </script>
+        <!-- Hint: Make sure 'dev'/'qa'(unused?)/'prod' match in config and url below (urls see Dcomm's marketingcontainer.js). -->
+        <script type="text/javascript"
+            src="//tealium.hs.llnwd.net/o43/utag/lgi/de-unitymedia-main/dev/utag.js"></script>
+        <!-- scr ipt type="text/javascript" src="//tags.tiqcdn.com/utag/lgi/de-unitymedia-main/prod/utag.js"></scr ipt -->
+        <!-- Gtag script removed, should be injected live by Tealium. -->
+        <!-- End of global snippet: Please do not remove -->
+    </head>
+
+    <body>
+        <noscript>
+            <strong>We're sorry but the Fallback Shop doesn't work properly
+                without JavaScript enabled. Please enable it to
+                continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+
+        <script type="text/javascript">
+        if (typeof _satellite !== 'undefined') {
+            _satellite.pageBottom();
+        }
+    </script>
+    </body>
+
+</html>

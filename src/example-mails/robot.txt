@@ -1,0 +1,55 @@
+X UNITY:
+
+#+#UEP Breite: 51.453946657197996
+#+#UEP Laenge: 7.236304606151634
+#+#UEP manuell gesetzt: true
+#+#UEP Strasse: Am Bleckmannshof
+#+#UEP Hausnummer: 14
+#+#UEP PLZ: 44799
+#+#UEP Stadt: Bochum
+#+#UEP Land: Nordrhein-Westfalen
+
+#+#Hausanschluss Produktwahl: dline_and_2play_and_tv
+#+#2Play Kombipaket: 3play_fly_400_kabelanschluss
+#+#Absendedatum: 2018-11-08
+
+#+#Wohnstatus: own
+
+#+#Anrede: Herr
+#+#Vorname: Philipp
+#+#Nachname: Dollst
+#+#Firmenname:
+#+#Geburtstag: 1994-09-24
+
+#+#Abweichende Adresse für Informationen:
+#+#Abweichende Anrede:
+#+#Abweichender Vorname:
+#+#Abweichender Nachname:
+#+#Abweichende Strasse:
+#+#Abweichende Hausnummer:
+#+#Abweichende PLZ:
+#+#Abweichender Wohnort:
+
+#+#E-mail-Adresse: philipp.dollst@sinnerschrader.com
+#+#Telefonnummer: 01708121503
+
+#+#Wechselvorteil: false
+#+#Einverstaendnis Produktangebote: true
+#+#Bestaetigung auftragsberechtigt: true
+
+#+#IBAN: DE12341234123412341234
+
+#+#Kontoinhaber weicht ab:
+#+#Kontoinhaber Vorname:
+#+#Kontoinhaber Nachname:
+#+#Kontoinhaber Strasse:
+#+#Kontoinhaber Hausnummer:
+#+#Kontoinhaber PLZ:
+#+#Kontoinhaber Ort:
+#+#Kontoinhaber Land:
+
+#+#SEPA-Lastschriftmandat: true
+#+#Bonitaetspruefung: true
+#+#AGB: true
+
+#+#Weitere Anmerkungen: 3PLAY TESTORDER, wird BE

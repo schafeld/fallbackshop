@@ -1,0 +1,153 @@
+-----Ursprüngliche Nachricht-----
+Von: noreply@unitymedia.info [mailto:noreply@unitymedia.info]
+Gesendet: Dienstag, 20. November 2018 10:00
+An: Marketing, Online
+Betreff: WS Neuauftrag: Hundemaus, Maya
+
+X-UNITY: HSI-Telefon
+Ich wohne in: BW
+Kundennummer:
+Frage/ Anliegen zu: Neu Auftrag
+Anrede:  
+Name: Hundemaus
+Vorname: Maya
+Straße: Schilfweg
+Hausnummer: 25-a
+PLZ: 88662
+Wohnort: Überlingen
+UeP ID:
+Email: sandra.thimm@unitymedia.de
+Rückrufnummer: 023443663465
+
+Email vom: 20.11.2018 / 09:59:57
+
+X-UNITY: HSI-Telefon
+Betreff: WS Neuauftrag: Hundemaus, Maya
+
+Customer Type:
+Customer Comment:
+Request Tech Visit:
+Requested Schedule Date:
+
+Inhalt:
+  Persönliche Daten:
+    
+     Maya Hundemaus
+    Schilfweg 25
+    88662 Überlingen
+    
+    Kundennummer:	
+    Email:		sandra.thimm@unitymedia.de
+    Tel:			023443663465
+    Fax:			
+    Handy:		
+    
+    Geburtsdatum:   12-9-1980
+    
+    TradeBranch:		
+    TradeSubBranch:	
+    
+  B2B Contact:
+  	Title:			
+  	FirstName:		
+  	LastName:		
+  	TelephoneNumber:	
+  	EmailAddress:		
+
+  Einzugsermächtigung:
+    
+    Kontonummer:    
+    Kontoinhaber:   Maya Hundemaus
+    Bankleitzahl:  
+    Bank IBAN:      DE23500604000001170413
+    Payer Address:  
+                    
+                    
+                    
+    
+  Abrechnungsdetails:
+  
+    InvoicePostingMethode:
+    Zahlungsmethode: D
+    Name formatiert: P
+    Rechnungsadresse Persönliche Details: Frau Maya Hundemaus
+    Billing Postal Adresse: 25a, Schilfweg, Überlingen, 88662.
+  
+  Sales ID: 63000
+  
+  HandelsRegister:
+  
+  External Order Reference: DCOM500016872
+  
+  Bill Date:
+  
+  Agreed to credit check: Y
+  
+  Bestellung:
+  
+  Handset Order:
+  
+      
+    
+    Install:
+      
+      UPC   Termination Date  Period  Voucher  Description
+      ----------------------------------------------------------
+      R8L2                                     Rechnungsguthaben 80¤
+    
+    Install:
+      
+      UPC              Termination Date  Period  Voucher  Description
+      ----------------------------------------------------------------------
+      PR_TV_SDU_N_BCS                                     Horizon TV D
+      SVOD_MAXDOME                       1                SVoD Maxdome (1 Monat)
+    
+    Install:
+      
+      UPC         Termination Date  Period  Voucher  Description
+      ----------------------------------------------------------
+      BASIC                                          BASIC
+      NOHARDWARE                                     No DTV Hardware
+    
+    Install:
+      
+      UPC            Termination Date  Period  Voucher  Description
+      ------------------------------------------------------------------------
+      PLAYMOB_SA_5G                                     PureMobile Allnet Flat 2GB
+    
+    Install:
+      
+      UPC             Termination Date  Period  Voucher  Description
+      ----------------------------------------------------------------------
+      KEIN_WECHSLER                                      Neukunde, kein Wechsler
+      2P_FLY_400_12M                                     2PLAY FLY 400
+      
+    Promotions at UPC level:
+      
+      UPC             Promo ID  Voucher ID
+      ----------------------------------
+      2P_FLY_400_12M  881
+  
+    
+    
+      
+    Rufnummer übernehmen      : Nein      
+    Telefonbucheintrag        : Nein    
+    Einzelverbindungsnachweis : Nein
+      
+    
+    
+  Work Order Kommentar: #DCOM: DCOM500016872
+
+
+  Sales Reason:
+  
+  Problems:
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [2000001]  CM-APIPKG0029 - ERROR: Order validation failed
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [1000000]  Unknown error code: [CM-APIPKG6045] ERROR: Horizon TV (ENV) kann nicht alleine beauftragt werden
+    [2000001]  CM-APIPKG0029 - ERROR: Order validation failed

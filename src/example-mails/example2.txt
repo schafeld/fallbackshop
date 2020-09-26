@@ -1,0 +1,118 @@
+-----Ursprüngliche Nachricht-----
+Von: noreply@unitymedia.info [mailto:noreply@unitymedia.info]
+Gesendet: Donnerstag, 22. November 2018 12:02
+An: Marketing, Online
+Betreff: WS Neuauftrag: Karstaedt, Bastian
+
+X-UNITY: HSI-Telefon
+Ich wohne in: NRW
+Kundennummer:
+Frage/ Anliegen zu: Neu Auftrag
+Anrede:  
+Name: Karstaedt
+Vorname: Bastian
+Straße: Aachener Str.
+Hausnummer: 746--750
+PLZ: 50933
+Wohnort: Köln
+UeP ID: 602010514
+Email: bastian.karstaedt+TESTORDER@sinnerschrader.com
+Rückrufnummer: 01701234565
+
+Email vom: 22.11.2018 / 12:01:32
+
+X-UNITY: HSI-Telefon
+Betreff: WS Neuauftrag: Karstaedt, Bastian
+
+Customer Type:
+Customer Comment:
+Request Tech Visit:
+Requested Schedule Date:
+
+Inhalt:
+  Persönliche Daten:
+    
+     Bastian Karstaedt
+    Aachener Str. 746
+    50933 Köln
+    
+    Kundennummer:	
+    Email:		bastian.karstaedt+TESTORDER@sinnerschrader.com
+    Tel:			01701234565
+    Fax:			
+    Handy:		
+    
+    Geburtsdatum:   1-1-1970
+    
+    TradeBranch:		
+    TradeSubBranch:	
+    
+  B2B Contact:
+  	Title:			
+  	FirstName:		
+  	LastName:		
+  	TelephoneNumber:	
+  	EmailAddress:		
+
+  Einzugsermächtigung:
+    
+    Kontonummer:    
+    Kontoinhaber:   Bastian Karstaedt
+    Bankleitzahl:  
+    Bank IBAN:      DE77711500000500539382
+    Payer Address:  
+                    
+                    
+                    
+    
+  Abrechnungsdetails:
+  
+    InvoicePostingMethode:
+    Zahlungsmethode: D
+    Name formatiert:
+    Rechnungsadresse Persönliche Details:  
+    Billing Postal Adresse:
+  
+  Sales ID: 43175
+  
+  HandelsRegister:
+  
+  External Order Reference: N181122-110026-01075
+  
+  Bill Date:
+  
+  Agreed to credit check: Y
+  
+  Bestellung:
+  
+  Handset Order:
+  
+      
+    
+    Install:
+      
+      UPC            Termination Date  Period  Voucher  Description
+      ---------------------------------------------------------------------
+      2PLY_PLUS_50                                      2TA2N  2play PLUS 50
+      R6M2                                              Rechnungsguthaben 60¤
+      BILLKURZ                                          Short billing required
+      HSPOF                                             Homespot Opt-Out
+      KEIN_WECHSLER                                     Neukunde, kein Wechsler
+  
+    
+    
+      
+    Rufnummer übernehmen      : Nein      
+    Telefonbucheintrag        : Nein    
+    Einzelverbindungsnachweis : Ja, um drei Stellen gekürzt
+      
+    
+    
+  Work Order Kommentar: #OBST: N181122-110026-01075
+
+
+
+  Sales Reason:
+  
+  Problem:
+    [ZBR0005]  Error executing API call to ZBridge

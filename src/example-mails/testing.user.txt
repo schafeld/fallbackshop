@@ -1,0 +1,24 @@
+Testorder in LIVE – Unitymedia only 
+
+Following requirements must be obeyed to sort out test orders among all incoming orders. Otherwise the test order is routed into the automated order process and will cause avoidable orders. 
+
+Address: 50933 Köln, Aachener Str. 746-750 
+
+First name: „FOD – Service Testbestellung“ 
+
+Last name: „x67y34 – <Testers first name> Testbestellung“ 
+
+Tel. No.: “0221 84621000” !!!
+
+E-Mail Address: 
+If you’re an internal tester, you can use: web.test-von-42@web.de
+Otherwise feel free to use any other / your own mail address.
+
+Account owner: “Webteam Testbestellung”
+Account number: “13020836” Banking ID: “70050000”
+
+In the following the orders are routed into the shared PO-box „Marketing, Online“.
+It is recommended to add an increasing number of the order for more easy retrieval of lost orders. 
+
+In case of questions:
+digital.delivery@unitymedia.de

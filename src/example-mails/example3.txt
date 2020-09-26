@@ -1,0 +1,117 @@
+-----Ursprüngliche Nachricht-----
+Von: noreply@unitymedia.info [mailto:noreply@unitymedia.info]
+Gesendet: Donnerstag, 15. November 2018 13:45
+An: Marketing, Online
+Betreff: WS Neuauftrag: Promobestellung, Promotest
+
+X-UNITY: HSI-Telefon
+Ich wohne in: NRW
+Kundennummer:
+Frage/ Anliegen zu: Neu Auftrag
+Anrede:  
+Name: Promobestellung
+Vorname: Promotest
+Straße:
+Hausnummer:
+PLZ:
+Wohnort:
+UeP ID:
+Email: joerg.trierweiler@umkbw.de
+Rückrufnummer: 02241465465
+
+Email vom: 15.11.2018 / 13:44:36
+
+X-UNITY: HSI-Telefon
+Betreff: WS Neuauftrag: Promobestellung, Promotest
+
+Customer Type:
+Customer Comment:
+Request Tech Visit:
+Requested Schedule Date:
+
+Inhalt:
+  Persönliche Daten:
+    
+     Promotest Promobestellung
+    
+    
+    
+    Kundennummer:	
+    Email:		joerg.trierweiler@umkbw.de
+    Tel:			02241465465
+    Fax:			
+    Handy:		
+    
+    Geburtsdatum:   14-1-1980
+    
+    TradeBranch:		
+    TradeSubBranch:	
+    
+  B2B Contact:
+  	Title:			
+  	FirstName:		
+  	LastName:		
+  	TelephoneNumber:	
+  	EmailAddress:		
+
+  Einzugsermächtigung:
+    
+    Kontonummer:    
+    Kontoinhaber:   AGNES MUELLER
+    Bankleitzahl:  
+    Bank IBAN:      DE12500105170648489890
+    Payer Address:  
+                    
+                    
+                    
+    
+  Abrechnungsdetails:
+  
+    InvoicePostingMethode:
+    Zahlungsmethode: D
+    Name formatiert:
+    Rechnungsadresse Persönliche Details:  
+    Billing Postal Adresse:
+  
+  Sales ID: 43904
+  
+  HandelsRegister:
+  
+  External Order Reference: Testbestellung
+  
+  Bill Date:
+  
+  Agreed to credit check:
+  
+  Bestellung:
+  
+  Handset Order:
+  
+      
+    
+    Install:
+      
+      UPC             Termination Date  Period  Voucher  Description
+      -------------------------------------------------------------
+      2PLAY_JUMP_150                                     2PLAY JUMP 150
+      
+    Promotions at UPC level:
+      
+      UPC             Promo ID  Voucher ID
+      ----------------------------------
+      2PLAY_JUMP_150  866
+  
+    
+    
+      
+      
+    
+    
+  Work Order Kommentar:
+
+
+  Sales Reason:
+  
+  Problems:
+    [2000000]  CM-APIWSC024 - ERROR: Promotion is not within validity period
+    [2000000]  CM-APIWSC024 - ERROR: Promotion is not within validity period

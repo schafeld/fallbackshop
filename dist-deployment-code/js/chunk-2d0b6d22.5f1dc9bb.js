@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b6d22"],{"1f90":function(e,s,t){"use strict";t.r(s),s["default"]={mockData:{zip:[{city:"Köln"}],cities:[{streetName:"Aachener Str."}],streets:[{houseNumber:"746",addressId:"mockstreet1"},{houseNumber:"746-750",addressId:"mockstreet2"}]}}}}]);
+//# sourceMappingURL=chunk-2d0b6d22.5f1dc9bb.js.map
